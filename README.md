@@ -1,4 +1,4 @@
-<h1 align="center">Elise Bot - Landing Page</h1>
+<h1 align="center">Elise Bot</h1>
 
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
@@ -7,7 +7,7 @@
 <div align="center">
   <img src="./design/Elise Bot - Desktop.png" alt="Banner" />
 
-  <a href="https://gustavoalvim41.github.io/Elise-Bot-Landing-Page/">Demo</a>
+  <a href="https://gustavoalvim41.github.io/elisebot/">Demo</a>
 </div>
 
 
@@ -26,5 +26,5 @@ Esse projeto é uma landing page que será utilizada quando o bot ficar disponí
 Faça um clone do desafio:
 
   ```
-  https://github.com/gustavoalvim41/Elise-Bot-Landing-Page.git
+  git clone https://github.com/gustavoalvim41/elisebot.git
   ```
