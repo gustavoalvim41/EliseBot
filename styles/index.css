@@ -1,0 +1,204 @@
+main {
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero {
+	width: 620px;
+
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1.25rem;
+}
+
+.title {
+	font-size: 2.25rem;
+	font-weight: 800;
+
+	letter-spacing: 0.2rem;
+
+	margin-bottom: 0.6rem;
+}
+
+.paragraph {
+	font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 1.8rem;
+
+	letter-spacing: 0.1rem;
+}
+
+.btn-container {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+}
+
+.btn {
+	width: 220px;
+	height: 52px;
+	padding: 0.6rem;
+	border-radius: 1rem;
+
+	font-size: 1.25rem;
+	font-weight: 500;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-discord {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+
+	color:  var(--clr-white);
+	background-color: var(--bg-discord);
+}
+
+.btn-discord img {
+	height: 2rem;
+}
+
+.btn-secondary {
+	color:  var(--clr-white);
+	background-color: var(--bg-gray);
+} 
+
+.commands {
+	padding: 1.5rem;
+	border-radius: 1rem;
+
+	text-align: center;
+
+	backdrop-filter: blur(0.2rem) saturate(180%);
+    -webkit-backdrop-filter: blur(0.2rem) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 1.25rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.3rem;
+}
+
+.information,
+.credits {
+	font-size: 0.8rem;
+	font-weight: 500;
+
+	color: gray;
+}
+
+.loading {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+
+	animation: loading 2.3s linear infinite;
+
+	border: 0.4rem solid var(--clr-white);
+	border-top-color: transparent;
+}
+
+@keyframes loading {
+	to {
+		transform: rotate(-360deg);
+	}
+	from {
+		transform: rotate(360deg);
+	}
+}
+
+.invisible {
+	display: none;
+}
+
+@media screen and (max-width: 1024px) { 
+	
+}
+
+@media screen and (max-width: 425px) { 
+	.hero {
+		width: 100%;
+	}
+
+	.title {
+		font-size: 1.5rem;
+		font-weight: 800;
+
+		letter-spacing: 0.2rem;
+
+		margin-bottom: 0.6rem;
+	}
+
+	.paragraph {
+		font-size: 1rem;
+		font-weight: 500;
+		line-height: 1.5rem;
+
+		letter-spacing: 0.1rem;
+	}
+
+	.btn-container {
+		display: flex;
+		align-items: center;
+		gap: 0.6rem;
+	}
+
+	.btn {
+		width: 170px;
+		height: 42px;
+		padding: 0.6rem;
+		border-radius: 1rem;
+
+		font-size: 1rem;
+		font-weight: 500;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.btn-discord {
+		display: flex;
+		align-items: center;
+		gap: 0.6rem;
+
+		color:  var(--clr-white);
+		background-color: var(--bg-discord);
+	}
+
+	.btn-discord img {
+		height: 1.75rem;
+	}
+
+	.btn-secondary {
+		color:  var(--clr-white);
+		background-color: var(--bg-gray);
+	}
+
+	footer {
+		display: none;
+	}
+}
