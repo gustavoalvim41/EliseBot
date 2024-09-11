@@ -6,7 +6,7 @@ const footerCredits = document.querySelector('.credits')
 
 const btnDiscord = document.querySelector('.btn-discord')
 btnDiscord.addEventListener("click", function () {
-	location.href='https://discord.com/api/oauth2/authorize?client_id=1025212351517040692&permissions=8&scope=bot'
+	location.href=''
 })
 
 const btnCommands = document.querySelector('.btn-secondary')
